@@ -1,0 +1,46 @@
+<!DOCTYPE=html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  </head>
+  <body>
+    <div>
+      <div class="row">
+        <div id="pic" class="col-md-6 order-md-2">
+          <img src="penguin.jpg" alt="Penguins"/>
+        </div>
+        <div id="txt" class="col-md-6 order-md-1">
+          <div>
+            <h1>The Penguins Club</h1>
+            <p>Life Member's will receive a formal invitation.</p>
+            <p>
+              Due to the current global health situation now also
+              affecting Germany, the state has issued a preventive order
+              stating that major public and private events should not be
+              held.
+            </p>
+            <p>
+              For more details, kindly send an email via the link below.
+              Download info and dress code <a href="rules.pdf">here</a>.
+            </p>
+            <p>
+              <a id="contact">
+                <button type="button">E-Mail</button>
+              </a>
+              <span></span>
+              <button type="button" disabled>Login</button>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    let c = document.getElementById("contact");
+    let ffrs = "info";
+    let fefd = "the-penguins-club.com";
+    c.href = "mailto: " + ffrs + "@" + fefd;
+  </script>
+</html>

@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "louis_george_cafe";
+  src: url("fonts/louis_george_cafe/louis_george_cafe.tff");
+}
+
+body {
+  font-family: "louis_george_cafe"!important;
+  margin: 12px!important;
+}
+
+p {
+  font-size: calc(10% + 1vw + 1vh);
+}
+
+.row {
+  height: 100%;
+}
+
+body > div {
+  border-style: solid;
+  border-color: #000;
+  border-width: 10px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#txt {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+#pic {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none!important;
+  color: #212529!important;
+  font-style: italic;
+}
+
+img {
+  width: 75%;
+}
+
+span {
+  display: inline-block;
+  width: 10px;
+}
+
+button {
+  border-style: solid;
+  border-color: #000;
+  border-width: 1px;
+  background-color: #FFF;
+}
