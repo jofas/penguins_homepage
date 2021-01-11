@@ -3,9 +3,66 @@
   src: url("fonts/louis_george_cafe/louis_george_cafe.tff");
 }
 
+/* wordpress stuff */
+
+/* login form */
+#post-10 {
+  margin: auto 12px;
+  max-width: 400px;
+}
+
+.entry-header {
+  text-align: center;
+}
+
+.tml-submit-wrap {
+  text-align: center;
+}
+
+main {
+  width:100%;
+}
+
+.tribe-events-view {
+  width:100%;
+  font-family: inherit;
+}
+
+.tribe-events-c-top-bar__datepicker-button-icon-svg {
+  display: none!important;
+}
+
+.tribe-events-c-events-bar__search-container {
+  display: none!important;
+}
+
+.tribe-events-c-events-bar--border {
+  border-style: hidden!important;
+}
+
+.tribe-events-c-events-bar__views {
+  width: 100%;
+}
+
+.tribe-events-c-events-bar__search-button {
+  display: none!important;
+}
+
+footer {
+  display: none;
+}
+
+/* my stuff */
+html {
+  height: 100%;
+}
+
 body {
   font-family: "louis_george_cafe"!important;
-  margin: 12px!important;
+  padding: 12px!important;
+  background-color: #000;
+  color: #000!important;
+  height: 100%;
 }
 
 p {
@@ -14,7 +71,19 @@ p {
 
 .row {
   height: 100%;
+  padding: 12px;
 }
+
+.row > div {
+  padding: 0 5%;
+}
+
+@media (min-width: 992px) {
+  .row > div:first-child {
+    border-style: hidden solid hidden hidden;
+  }
+}
+
 
 body > div {
   border-style: solid;
@@ -57,7 +126,7 @@ img {
   width: 75%;
 }
 
-span {
+span.spacing {
   display: inline-block;
   width: 10px;
 }
