@@ -4,6 +4,26 @@
 }
 
 /* wordpress stuff */
+article > header {
+  display: none;
+}
+
+#penguin-nav-menu > a > button {
+  margin: 10px 0px;
+}
+
+#wpadminbar {
+  height: auto;
+  border-style: none;
+}
+
+#wp-toolbar {
+  width: 100%;
+}
+
+#wp-toolbar > ul > li > a {
+  color: #FFF!important;
+}
 
 /* login form */
 #post-10 {
@@ -84,6 +104,9 @@ p {
   }
 }
 
+.col-lg-12 {
+  border-style: none!important;
+}
 
 body > div {
   border-style: solid;
