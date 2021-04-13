@@ -26,8 +26,15 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <div id="page" class="site", style="flex-wrap: wrap">
-  <div style="width: 100%; text-align: center; margin-top:50px; align-self: flex-start">
-    <h1>The Penguins Club</h1>
+  <div style="width: 100%; text-align: center; align-self: flex-start; display: flex; flex-direction: column;">
+    <div style="align-self: flex-end;">
+      <img
+        style="width:75px; float: right"
+        src="../static/logo.png" alt="Penguins"/>
+    </div>
+    <div>
+      <h1>The Penguins Club</h1>
+    </div>
     <div>
       <a href="./">
         <button type="button">Membership Area</button>
